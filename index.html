@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lindsey D. Garcia, Finance and Information Systems student at the University of Maryland’s Robert H. Smith School of Business.">
+  <meta name="theme-color" content="#232408">
+  <title>Lindsey D. Garcia | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="site">
+    <header class="masthead">
+      <nav aria-label="Main navigation">
+        <a href="#top">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+      </nav>
+      <a class="wordmark" href="#top" aria-label="Lindsey D. Garcia home">LG</a>
+      <a class="button header-link" href="https://www.linkedin.com/in/lindseygarcia12">LinkedIn <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="name">
+        <div class="hero-image">
+          <img src="hero.webp" width="1840" height="1227" alt="Lindsey D. Garcia in a black blazer">
+        </div>
+        <div class="hero-title">
+          <h1 id="name">Lindsey D.<br>Garcia</h1>
+          <p>Finance &amp; Information Systems</p>
+        </div>
+      </section>
+      <section class="about wrap" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">More About Me</h2>
+        <div class="about-grid">
+          <div>
+            <p class="intro">I am a student at the University of Maryland Robert H. Smith School of Business, pursuing two degrees in finance and information systems. I have both customer service and one-on-one client experience. I am the oldest of three children and a first-generation college student. I highly prioritize my education, family, and mental health. I want to discover and improve my skills and abilities to pursue my value proposition. I am currently looking for a future career as a Financial Consultant or Financial Analyst, but I'm open to new experiences, positions, and work in various industries.</p>
+            <div class="resume">
+        <details id="experience" name="resume">
+          <summary>Experience</summary>
+          <div class="rows">
+              <article>
+            <p class="eyebrow">Jun–Aug 2025 · May–Aug 2026</p>
+            <h3>Project Controls Summer Associate</h3>
+            <p class="organization">Clark Construction Group, LLC</p>
+            <p>Prepared cost reports, gross billing projections, and budget analyses for department heads. Provided financial and legal documentation to the Naval Facilities Engineering Systems Command, the University of Maryland, and subcontractors.</p>
+          </article>
+          <article>
+            <p class="eyebrow">Feb 2023–Present</p>
+            <h3>Respite Technician</h3>
+            <p class="organization">American Caregiver Inc.</p>
+            <p>Supported clients with autism in daily self-care, helped set physical and communication goals, and completed training in autism support methods.</p>
+          </article>
+          <article>
+            <p class="eyebrow">Aug 2024–Jan 2025</p>
+            <h3>Retail Associate &amp; Cashier</h3>
+            <p class="organization">Marshalls · TJX Companies</p>
+            <p>Assisted customers, handled over $500 in cash daily, increased credit card sales by 3%, and earned a REACH award.</p>
+          </article>
+            </div>
+        </details>
+        <details id="education" name="resume">
+          <summary>Education</summary>
+          <div class="rows">
+              <article>
+              <p class="eyebrow">Expected May 2028 · GPA 3.5</p>
+              <h3>B.S. in Finance &amp; Information Systems</h3>
+              <p class="organization">University of Maryland · Robert H. Smith School of Business</p>
+              <p>Smith Business Leadership Fellows Program participant. Coursework includes business finance, marketing, business statistics, information systems, and accounting.</p>
+            </article>
+            <article>
+              <h3>Honors and Awards</h3>
+              <ul class="simple-list">
+                <li>Clark Craft <em>Margie Rosario</em> Scholarship Award</li>
+                <li>Honor Roll Student 2021–2025</li>
+                <li>Dean’s List</li>
+                <li>Certificate of Merit</li>
+                <li>Business Management and Finance Certificate of Studies</li>
+                <li>Leadership and Training Institute Medal recipient</li>
+              </ul>
+            </article>
+            </div>
+        </details>
+        <details id="leadership" name="resume">
+          <summary>Leadership &amp; skills</summary>
+          <div class="rows">
+              <article>
+            <h3>Student Leadership</h3>
+            <p>Served as the Special Needs and ESOL Student Liaison for the Student Government Association and participated in the Business Management and Finance Academy.</p>
+            <p class="organization">Smith Business Leadership Fellows Program</p>
+            <p>Participate in programs to add to academic curiosity and multidisciplinary creativity.</p>
+          </article>
+          <article>
+            <h3>Technical &amp; language skills</h3>
+            <ul class="simple-list">
+              <li>Microsoft Excel certified</li>
+              <li>Bilingual in English and Spanish, spoken and written</li>
+              <li>English–Spanish translation</li>
+            </ul>
+          </article>
+            </div>
+        </details>
+            </div>
+          </div>
+          <figure>
+            <img src="headshot.webp" width="960" height="1200" alt="" loading="lazy">
+            <figcaption>University of Maryland <span>Class of 2028</span></figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap">
+      <h2>Let’s connect</h2>
+      <a class="button" href="https://www.linkedin.com/in/lindseygarcia12">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+    </footer>
+  </div>
+  <script>
+    function openLinkedSection() {
+      const section = document.getElementById(location.hash.slice(1));
+      if (section instanceof HTMLDetailsElement) section.open = true;
+    }
+    window.addEventListener('hashchange', openLinkedSection);
+    document.querySelector('a[href="#experience"]').addEventListener('click', () => {
+      document.getElementById('experience').open = true;
+    });
+    openLinkedSection();
+  </script>
+</body>
+</html>
